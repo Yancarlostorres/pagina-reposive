@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    display: flex;
+    
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+     padding-right: 20px;
+    
+}
+
+.titulo{
+    background-image: url(/img/slider-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+}
+
+.parrafo{
+    text-align: center;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
