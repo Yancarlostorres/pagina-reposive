@@ -1,42 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="syle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo-pestaña.ico">
     <link rel="stylesheet" href="css/style.css">
     <title>Sabujcha una web muy saludable</title>
 </head>
- <body>
-    <div id="container">
-        <header>
 
-            <ul>
-               <a href="#" class="active">HOME</a>
-               <a href="#">ABOUT</a>
-               <a href="#">BLOG</a>
-               <a href="#">PAGES</a>
-               <a href="#">CONTACT</a>
+<body>
+    <div id="container">
+        <!--this is the header of the page -->
+
+        <header>
+         <nav>
+             <nav class="main-header">
+                            <!--main-hamburger-->
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="material-icons">&#xe5d2;</i>
+            </label>
+            <ul class="menuc">
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#Prueba">CONTACT</a></li>
             </ul>
-            <div class="logo">
-                <img src="img/logo.png" alt="">
-                <div class="img2">
-                    <div class="titulo">
-                        <h1 class="parrafo">want to stay healthy
-                            dirink matcha.
-                            <a id="busqueda" href="#">shop now</a>
-                        </h1>
-                    </div>
-                    
-                </div>
             
+        </nav>
+             <div class="logo">
+                <img src="img/logo.png" alt="">
+             </div>
+         </nav>
+            <div class="carrito">
+                <select class="moneda">
+                    <option value="USD" class="buthon-moneda">USD</option>
+                    <option value="PES" class="buthon-moneda">PES</option>
+                </select>
+                <a href="#"><img class="compras3" src="img/carrito-de-compras.png" alt=""></a>
             </div>
         </header>
-        
+        <!--you are the content 1 of the page-->
+        <main>
+            <section>
+
+                <div class="titulo">
+                    <h1 class="parrafo">want to stay healthy dirink matcha.
+                    </h1>
+                    <p> <u> shop now</u> </p>
+
+                </div>
+                <!--section 1 of the page-->
+            </section>
 
 
- </div>
-    
- </body>
+            <section class="todos-borde">
+                <article class="bordes1">
+                    <div class="contenido2">
+                        <h2> -20% sale</h2>
+                        <p> WINTWE VACATION</p>
+                    </div>
+                </article>
+                </article>
+
+                <article class="bordes2">
+                    <div class="contenido2">
+                        <h2> -20% sale</h2>
+                        <p> WINTWE VACATION</p>
+                    </div>
+                </article>
+            </section>
+
+            <!--latest products-->
+            <section>
+                <div class="container-pages">
+                    <header class="container-titule">
+                        <h1 id="titulo_producto">Latest Products</h1>
+                        <p>lore ipsum dolor sit amel,consectetur adipsicing elit sed do<br>
+                            ciusmod tempor incididunt.</p>
+                    </header>
+                    <div class="producto-latest">
+                        <div class="container-pages-image-1">
+                            <a class="porce" href="#"><img src="./img/product-1.jpg" sizes="100%">
+                                <p>-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Nature Close Tea</a><br>
+                            <a class="text2-bt-after">
+                                <br>$100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce" href="#"><img src="./img/product-2.jpg" alt="">
+                                <p id="desc-none">-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Pink wave Cup</a><br>
+                            <a class="text2-bt-after">
+                                <br>$100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce" href="#"><img src="./img/product-3.jpg" alt="">
+                                <p>-50%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Tea and Chai</a><br>
+                            <a class="text2-bt-after">
+                                <br>$100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce" href="#"><img src="./img/product-4.jpg" alt="">
+                                <p id="desc-none">-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Pearly Everlasting</a><br>
+                            <a class="text2-bt-after">
+                                <br>$100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--second part of discounted products-->
+
+                <div class="container-intermedium">
+                    <img src="./img/testi.png" class="imagen-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do <br> eiusmod tempor incididunt ut
+                        labore.</p>
+                    <h4 class="text1-bt-center">GREGORY PERKINS</h4>
+                    <span class="text2-bt-center">Customer</span>
+                </div>
+                <div class="container-down">
+                    <header class="container-titule">
+                        <h1>New Products</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </header>
+                    <div class="product-page">
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-1.jpg" alt="">
+                                <p>-30%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Pink wave Cup</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-2.jpg" alt="">
+                                <p>-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-3.jpg" alt="">
+                                <p id="desc-none">-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-4.jpg" alt="">
+                                <p>-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-5.jpg" alt="">
+                                <p>-50%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-6.jpg" alt="">
+                                <p id="desc-none">-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-7.jpg" alt="">
+                                <p>-40%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                        <div class="container-pages-image-1">
+                            <a class="porce-1" href="#"><img src="./img/product-8.jpg" alt="">
+                                <p id="desc-none">-60%</p>
+                            </a>
+                            <br>
+                            <a class="titulo_producto">Que herbal Tea</a><br>
+                            <a class="text2-bt-after">
+                                $100.00 -<del class="valoralto"> $120,00</del></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--transparent subscribe input-->
+                <div class="lista2">
+                    <h1 class="texto60">
+                        join to ur Newsletter
+                    </h1>
+                    <div class="imput1">
+                        <input class="iemail" type="text" name="surname" placeholder="Your Email Address*">
+                        <input type="submit" value="SUBCRIBETE" class="btsub">
+                    </div>
+                </div>
+                <!--last section of products-->
+                <section class="prudctivas56">
+                    <article class="lista7">
+                        <h1 class="texto61">Latest News</h1>
+                        <div class="container3">
+                            <div class="ultimosproductos">
+
+                                <DIv class="ULTIMA1">
+                                    <img class="blog1" src="/img/blog-single-1.jpg" alt="">
+                                    <p class="mes">14 sep</p>
+                                    <h2 class="mess2">Lorem ipsum sit amet co.</h2>
+                                    <p class="mes3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                                        temporibus
+                                        debitis earum labore incidunt eum porro asperiores repudiandae?</p>
+                                    <p class="up">READ MORE</p>
+                                </DIv>
+                                <div class="ultima2">
+                                    <img class="blog2" src="/img/blog-single-2.jpg" alt="">
+                                    <p class="mes">20 Dec</p>
+                                    <h2 class="mess2">Lorem ipsum sit amet co.</h2>
+                                    <p class="mes3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                                        temporibus
+                                        debitis earum labore incidunt eum porro asperiores repudiandae?</p>
+                                    <p class="up">READ MORE</p>
+                                </div>
+                                <div class="ultima3">
+                                    <img class="blog3" src="/img/blog-single-3.jpg" alt="">
+                                    <p class="mes">18 agu</p>
+                                    <h2 class="mess2">Lorem ipsum sit amet co.</h2>
+                                    <p class="mes3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                                        temporibus
+                                        debitis earum labore incidunt eum porro asperiores repudiandae?</p>
+                                    <p class="up">READ MORE</p>
+                                </div>
+                            </div>
+                    </article>
+
+    </div>
+
+    </section>
+    </div>
+    <div class="imagenes-lastdown">
+        <img src="./img/1.jpg">
+        <img src="./img/2.jpg">
+        <img src="./img/3.jpg">
+        <img src="./img/4.jpg">
+        <img src="./img/5.jpg">
+    </div>
+    <!--the footer of the page-->
+    <footer class="Prueba" id="Prueba">
+        <div class="footer-navigation-inner">
+            <ul class="nav-main">
+                <li class="nav-main-item title">
+                    <h3 class="nav-main-title">My Account</h3>
+                    </p>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        My Account </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Order History </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        WishList </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Newsletter </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Order History </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        International Orders </a>
+                </li>
+            </ul>
+            <ul class="nav-main">
+                <li class="nav-main-item title">
+                    <h3 class="nav-main-title">Information</h3>
+                    </p>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Flow </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Delivery Information </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Privacy Policy </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Terms & Conditions </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Customer Service </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Return Policy </a>
+                </li>
+            </ul>
+            <ul class="nav-main">
+                <li class="nav-main-item title">
+                    <h3 class="nav-main-title">Quick Links</h3>
+                    </p>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Support Center </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Term & Conditions </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Shipping </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Privacy Policy </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Help </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        FAQS </a>
+                </li>
+            </ul>
+            <ul class="nav-main">
+                <li class="nav-main-item title">
+                    <h3 class="nav-main-title">Contact Us</h3>
+                    </p>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        Your address goes here </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        0123456789 </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        0123456789 </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        demo@example.com </a>
+                </li>
+                <li class="nav-main-item visible">
+                    <a class="nav-main-link" href="">
+                        demo@example.com </a>
+                </li>
+            </ul>
+        </div>
+        <div id="footer-legal-down">
+            <div class="Legal-left">
+                <small>© 2021 <b>SabujCha</b> Made With By <i class="fa fa-heart" style="font-size:2vh;color:red"> </i>
+                    <b>HasThemes</b> </small>
+            </div>
+            <div>
+                <img src="./img/payment.png">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
 </html>
